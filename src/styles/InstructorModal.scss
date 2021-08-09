@@ -1,0 +1,48 @@
+.container {
+    width: calc(100vw - 2rem) !important;
+    height: calc(100vh - 5rem);
+}
+
+.content {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    max-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 4rem);
+    position: relative;
+    width: 100%;
+
+    .magnifier {
+        align-self: center;
+        width: max-content !important;
+    }
+
+    .image,
+    .magnifier-image {
+        max-width: calc(100vw - 4rem) !important;
+        max-height: calc(100vh - 8rem);
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    span.actions {
+        color: #fff;
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        .measure {
+            margin-right: 1rem;
+        }
+        .title {
+            padding-left: 2rem;
+            font-size: 1.4rem;
+        }
+    }
+}

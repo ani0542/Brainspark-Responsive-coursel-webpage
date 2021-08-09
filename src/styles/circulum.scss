@@ -1,0 +1,74 @@
+.circulumbackground{
+    background-image: url('../assets/pinkbg.png');
+    border-bottom-left-radius: 16px!important;
+    border-bottom-right-radius: 16px!important;
+    border-top-right-radius: 16px!important;
+    height: 73.6vh!important;
+    width: 70%!important;
+    padding: 1rem!important;
+}
+
+
+@media screen and (max-width: 321px) {
+    .circulumbackground{
+        background-image: url('../assets/pinkbg.png');
+        border-bottom-left-radius: 16px!important;
+        border-bottom-right-radius: 16px!important;
+        border-top-right-radius: 16px!important;
+        height: 99.9vh!important;
+        width: 95%!important;
+        padding: 0rem!important;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .circulumbackground{
+        background-image: url('../assets/pinkbg.png');
+        border-bottom-left-radius: 16px!important;
+        border-bottom-right-radius: 16px!important;
+        border-top-right-radius: 16px!important;
+        height: 87.4vh!important;
+        width: 95%!important;
+        padding: 0rem!important;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 489px) {
+    .circulumbackground{
+        background-image: url('../assets/pinkbg.png');
+        border-bottom-left-radius: 16px!important;
+        border-bottom-right-radius: 16px!important;
+        border-top-right-radius: 16px!important;
+        height: 99.9vh!important;
+        width: 95%!important;
+        padding: 0rem!important;
+    }
+
+}
+
+@media (min-width: 489px) and (max-width: 769px) {
+
+    .circulumbackground{
+        background-image: url('../assets/pinkbg.png');
+        border-bottom-left-radius: 16px!important;
+        border-bottom-right-radius: 16px!important;
+        border-top-right-radius: 16px!important;
+        height: 99.9vh!important;
+        width: 95%!important;
+        padding: 1rem!important;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1026px) {
+    .circulumbackground{
+        background-image: url('../assets/pinkbg.png');
+        border-bottom-left-radius: 16px!important;
+        border-bottom-right-radius: 16px!important;
+        border-top-right-radius: 16px!important;
+        height: 84.9vh!important;
+        width: 95%!important;
+        padding: 1rem!important;
+    }
+}

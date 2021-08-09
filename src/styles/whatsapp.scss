@@ -1,0 +1,53 @@
+.whatsapp{
+    position: absolute;
+    top: 28rem!important;
+    right: 9rem!important;
+}
+
+@media screen and (max-width: 489px) {
+    .whatsapp{
+        position: absolute;
+        width: 35px!important;
+        top: 38rem!important;
+        right: 3rem!important;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    .whatsapp{
+        position: absolute;
+        width: 35px!important;
+        top: 43rem!important;
+        right: 1rem!important;
+    }
+}
+
+
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .whatsapp{
+        position: absolute;
+        width: 35px!important;
+        top: 40rem!important;
+        right: 3rem!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .whatsapp{
+        position: absolute;
+        width: 33px!important;
+        top: 27rem!important;
+        right: 3rem!important;
+    }
+  }
+
+//   @media (min-width: 1026px) and (max-width: 1043px) {
+//     .whatsapp{
+//         position: absolute;
+//         width: 33px!important;
+//         top: 20rem!important;
+//         right: 3rem!important;
+//     }
+//   }
